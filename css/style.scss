@@ -3,8 +3,6 @@
     margin: 0%;
     padding: 0%;
 }
-button{
-}
 .project1{
     background-image: linear-gradient(to right top, rgba(235, 23, 23, 0.3), rgba(19, 228, 36, 0.3)), url(../img/project1.png);
 }
@@ -23,9 +21,5 @@ button{
     background-repeat: no-repeat;        
 }
 .img:hover{
-        border: 1px solid black;
+        border: 1px solid black;    
     }
-iframe{
-    border: none;
-    
-}
