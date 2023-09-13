@@ -37,18 +37,13 @@ export default function Header() {
               />
               <span>who</span>
             </h2>
-            <h2 className="font-semibold text-2xl lg:text-3xl flex flex-wrap gap-2 mx-auto justify-center lg:justify-start lg:mx-0">
-              <span>just</span>
+            <h2 className="font-semibold text-2xl lg:text-3xl flex flex-wrap gap-2 mx-auto justify-center lg:justify-start lg:mx-0">            
               <Lottie
                 animationData={heartAnimation}
                 loop={true}
                 className="w-14"
               />
-              <span>to code and</span>
-            </h2>
-            <h2 className="font-semibold text-2xl lg:text-3xl flex flex-wrap gap-2 mx-auto justify-center lg:justify-start lg:mx-0">
-              <span>bring ideas</span>
-              <span>to life</span>
+              <span>to bring ideas to life</span>
               <Lottie
                 animationData={lifeAnimation}
                 loop={true}
