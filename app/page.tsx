@@ -12,15 +12,15 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="">
-      <div className="min-h-screen space-y-8 lg:space-y-16 relative">
-        <Navbar />
+    <div className="px-4">
+      <Navbar />
+      <div className='min-h-screen flex flex-col justify-center'>
         <Header />
         <Hero />
-        <FiChevronDown className="mx-auto font-black text-6xl animate-bounce cursor-pointer mt-4" />
+        <FiChevronDown className="mx-auto font-black text-6xl animate-bounce cursor-pointer" />
       </div>
-
-      <div className="space-y-12 mt-5 lg:mt-56 relative">
+      
+      <div className="container mx-auto py-16">
         <div className='text-3xl lg:text-5xl font-light flex gap-2 flex-wrap'>
           <span className='text-gray-500'>some of the</span> 
           <span className='font-medium'>technologies I have</span>
@@ -90,17 +90,17 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="space-y-12 mt-5 lg:mt-56 relative">
-        <div className='text-3xl lg:text-5xl font-light flex gap-2 flex-wrap' id='work'>
-          <span className='text-gray-500'>Selected</span> 
-          <span className='font-medium'>Works</span>
+      <div className="container mx-auto py-16">
+        <div className='text-3xl lg:text-5xl font-light pb-14' id='work'>
+          <span className='text-gray-500'>Selected </span> 
+          <span className='font-medium'> Works</span>
         </div>
 
         <div className='mx-auto'>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full pb-12 lg:pb-50'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full pb-12 lg:pb-50 border-b border-stone-500'>
             <div className='col-span-1 w-full'>
               <Image 
-                src="/images/work-1.png" 
+                src="/images/indigg.png" 
                 className='rounded-3xl shadow-lg cursor-pointer' 
                 alt="work" 
                 width={1200} 
@@ -117,10 +117,10 @@ export default function Home() {
               <Link href="https://indi.gg/" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
             </div>
           </div>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full pb-12 lg:pb-50'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-12 lg:pb-50 border-b border-stone-500'>
             <div className='col-span-1 w-full'>
               <Image 
-                src="/images/work-1.png" 
+                src="/images/quick-recruit.png" 
                 className='rounded-3xl shadow-lg cursor-pointer' 
                 alt="work" 
                 width={1200} 
@@ -137,10 +137,90 @@ export default function Home() {
               <Link href="https://alpha.quickrecruit.com/signin" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
             </div>
           </div>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full pb-12 lg:pb-50'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-12 lg:pb-50 border-b border-stone-500'>
             <div className='col-span-1 w-full'>
               <Image 
-                src="/images/work-1.png" 
+                src="/images/2hub.png" 
+                className='rounded-3xl shadow-lg cursor-pointer' 
+                alt="work" 
+                width={1200} 
+                height={1200} 
+              />
+            </div>
+            <div className='col-span-1 w-full h-full flex flex-col justify-center space-y-8'>
+              <h1 className='uppercase font-medium'>Recruitment Management Application</h1>
+              <p className='text-3xl font-light leading-relaxed'>
+                <span className='text-gray-500'>A recruitment management application that offers hiring-related services to corporate agencies. </span>
+                <span className='font-semibold'>It enables the management of candidates and provides tracking and analysis of job vacancies.</span>
+              </p>
+              <h6 className='font-light text-gray-400'>Website Development</h6>
+              <Link href="https://alpha.quickrecruit.com/signin" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
+            </div>
+          </div>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-12 lg:pb-50 border-b border-stone-500'>
+            <div className='col-span-1 w-full'>
+              <Image 
+                src="/images/wise-drive.png" 
+                className='rounded-3xl shadow-lg cursor-pointer' 
+                alt="work" 
+                width={1200} 
+                height={1200} 
+              />
+            </div>
+            <div className='col-span-1 w-full h-full flex flex-col justify-center space-y-8'>
+              <h1 className='uppercase font-medium'>Recruitment Management Application</h1>
+              <p className='text-3xl font-light leading-relaxed'>
+                <span className='text-gray-500'>A recruitment management application that offers hiring-related services to corporate agencies. </span>
+                <span className='font-semibold'>It enables the management of candidates and provides tracking and analysis of job vacancies.</span>
+              </p>
+              <h6 className='font-light text-gray-400'>Website Development</h6>
+              <Link href="https://alpha.quickrecruit.com/signin" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
+            </div>
+          </div>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-12 lg:pb-50 border-b border-stone-500'>
+            <div className='col-span-1 w-full'>
+              <Image 
+                src="/images/propdigital.png" 
+                className='rounded-3xl shadow-lg cursor-pointer' 
+                alt="work" 
+                width={1200} 
+                height={1200} 
+              />
+            </div>
+            <div className='col-span-1 w-full h-full flex flex-col justify-center space-y-8'>
+              <h1 className='uppercase font-medium'>Recruitment Management Application</h1>
+              <p className='text-3xl font-light leading-relaxed'>
+                <span className='text-gray-500'>A recruitment management application that offers hiring-related services to corporate agencies. </span>
+                <span className='font-semibold'>It enables the management of candidates and provides tracking and analysis of job vacancies.</span>
+              </p>
+              <h6 className='font-light text-gray-400'>Website Development</h6>
+              <Link href="https://alpha.quickrecruit.com/signin" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
+            </div>
+          </div>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-12 lg:pb-50 border-b border-stone-500'>
+            <div className='col-span-1 w-full'>
+              <Image 
+                src="/images/revise-network.png" 
+                className='rounded-3xl shadow-lg cursor-pointer' 
+                alt="work" 
+                width={1200} 
+                height={1200} 
+              />
+            </div>
+            <div className='col-span-1 w-full h-full flex flex-col justify-center space-y-8'>
+              <h1 className='uppercase font-medium'>Recruitment Management Application</h1>
+              <p className='text-3xl font-light leading-relaxed'>
+                <span className='text-gray-500'>A recruitment management application that offers hiring-related services to corporate agencies. </span>
+                <span className='font-semibold'>It enables the management of candidates and provides tracking and analysis of job vacancies.</span>
+              </p>
+              <h6 className='font-light text-gray-400'>Website Development</h6>
+              <Link href="https://alpha.quickrecruit.com/signin" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
+            </div>
+          </div>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-12 lg:pb-50'>
+            <div className='col-span-1 w-full'>
+              <Image 
+                src="/images/sirovate.png" 
                 className='rounded-3xl shadow-lg cursor-pointer' 
                 alt="work" 
                 width={1200} 
@@ -160,7 +240,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="space-y-12 mt-5 lg:mt-56">
+      <div className="container mx-auto py-16">
         <div className='text-3xl lg:text-5xl font-light flex gap-2 flex-wrap uppercase' id='about'>
           <span className='text-gray-500'>a bit</span> 
           <span className='font-medium'>about me</span>

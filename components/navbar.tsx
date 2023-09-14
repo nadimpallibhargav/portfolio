@@ -1,9 +1,7 @@
 //imports
-import { AiOutlineLine } from 'react-icons/ai';
-
 export default function Navbar() {
   return (
-    <nav className="lg:flex lg:justify-between z-50 relative">
+    <nav className="lg:flex lg:justify-between z-50 relative container mx-auto pt-8">
       <h1 className="text-center text-2xl cursor-pointer font-black italic text-green-400">
       &#60;&#47;&#62;
       </h1>
@@ -11,18 +9,17 @@ export default function Navbar() {
         <li className="relative">
           <a
             href="#"
-            className="text-green-400 uppercase font-bold text-sm"
+            className="uppercase font-bold text-sm"
           >
             home
           </a>
-          <AiOutlineLine className="absolute left-2/4 -translate-x-2/4 font-bold text-2xl" />
         </li>
-        <li className="">
+        <li>
           <a href="#work" className="uppercase font-bold text-sm">
             work
           </a>
         </li>
-        <li className="">
+        <li>
           <a href="#about" className="uppercase font-bold text-sm ">
             about
           </a>
