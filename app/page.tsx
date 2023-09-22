@@ -108,7 +108,7 @@ export default function Home() {
               />
             </div>
             <div className='col-span-1 w-full h-full flex flex-col justify-center space-y-8'>
-              <h1 className='uppercase font-medium'>Online Community-Based Gaming Platform</h1>
+              <h1 className='uppercase font-medium'>IndiGG</h1>
               <p className='text-3xl font-light leading-relaxed'>
                 <span className='text-gray-500'>A Web3 play-to-earn gaming platform in India. </span>
                 <span className='font-semibold'>It brings gamers and game developers together to create a community that sparks new innovations in the gaming world.</span>
@@ -116,27 +116,7 @@ export default function Home() {
               <h6 className='font-light text-gray-400'>Website Development</h6>
               <Link target='_blank' href="https://indi.gg/" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
             </div>
-          </div>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-14 lg:pb-50 border-b border-stone-500'>
-            <div className='col-span-1 w-full'>
-              <Image 
-                src="/images/quick-recruit.png" 
-                className='rounded-3xl shadow-lg cursor-pointer' 
-                alt="work" 
-                width={1200} 
-                height={1200} 
-              />
-            </div>
-            <div className='col-span-1 w-full h-full flex flex-col justify-center space-y-8'>
-              <h1 className='uppercase font-medium'>Recruitment Management Application</h1>
-              <p className='text-3xl font-light leading-relaxed'>
-                <span className='text-gray-500'>A recruitment management application that offers hiring-related services to corporate agencies. </span>
-                <span className='font-semibold'>It enables the management of candidates and provides tracking and analysis of job vacancies.</span>
-              </p>
-              <h6 className='font-light text-gray-400'>Website Development</h6>
-              <Link target='_blank' href="https://alpha.quickrecruit.com/signin" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
-            </div>
-          </div>
+          </div>          
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-14 lg:pb-50 border-b border-stone-500'>
             <div className='col-span-1 w-full'>
               <Image 
@@ -160,7 +140,7 @@ export default function Home() {
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-14 lg:pb-50 border-b border-stone-500'>
             <div className='col-span-1 w-full'>
               <Image 
-                src="/images/wise-drive.png" 
+                src="/images/sirovate.png" 
                 className='rounded-3xl shadow-lg cursor-pointer' 
                 alt="work" 
                 width={1200} 
@@ -168,15 +148,15 @@ export default function Home() {
               />
             </div>
             <div className='col-span-1 w-full h-full flex flex-col justify-center space-y-8'>
-              <h1 className='uppercase font-medium'>Wise Drive</h1>
+              <h1 className='uppercase font-medium'>Sirovate</h1>
               <p className='text-3xl font-light leading-relaxed'>
-                <span className='text-gray-500'>Wise Drive is a India's first used car extended warranty company. </span>
-                <span className='font-semibold'>It is transforming the existing warranty market into an honest and transparent process, where everyone benefits.</span>
+                <span className='text-gray-500'>Sirovate enables clients to deploy transformative data privacy solutions. </span>
+                <span className='font-semibold'> It is an flexible suite for medicinal drugs development with automated workflow capabilities.</span>
               </p>
               <h6 className='font-light text-gray-400'>Website Development</h6>
-              <Link target='_blank' href="https://www.wisedrive.in/" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
+              <Link target='_blank' href="https://www.sirovate.com/" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
             </div>
-          </div>
+          </div>          
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-14 lg:pb-50 border-b border-stone-500'>
             <div className='col-span-1 w-full'>
               <Image 
@@ -216,11 +196,11 @@ export default function Home() {
               <h6 className='font-light text-gray-400'>Website Development</h6>
               <Link target='_blank' href="https://revise.network/" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
             </div>
-          </div>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-14 lg:pb-50'>
+          </div>          
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-14 lg:pb-50 border-b border-stone-500'>
             <div className='col-span-1 w-full'>
               <Image 
-                src="/images/sirovate.png" 
+                src="/images/quick-recruit.png" 
                 className='rounded-3xl shadow-lg cursor-pointer' 
                 alt="work" 
                 width={1200} 
@@ -228,13 +208,33 @@ export default function Home() {
               />
             </div>
             <div className='col-span-1 w-full h-full flex flex-col justify-center space-y-8'>
-              <h1 className='uppercase font-medium'>Sirovate</h1>
+              <h1 className='uppercase font-medium'>Quick Recruit</h1>
               <p className='text-3xl font-light leading-relaxed'>
-                <span className='text-gray-500'>Sirovate enables clients to deploy transformative data privacy solutions. </span>
-                <span className='font-semibold'> It is an flexible suite for medicinal drugs development with automated workflow capabilities.</span>
+                <span className='text-gray-500'>A recruitment management application that offers hiring-related services to corporate agencies. </span>
+                <span className='font-semibold'>It enables the management of candidates and provides tracking and analysis of job vacancies.</span>
               </p>
               <h6 className='font-light text-gray-400'>Website Development</h6>
-              <Link target='_blank' href="https://www.sirovate.com/" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
+              <Link target='_blank' href="https://alpha.quickrecruit.com/signin" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
+            </div>
+          </div>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-14 lg:pb-50'>
+            <div className='col-span-1 w-full'>
+              <Image 
+                src="/images/wise-drive.png" 
+                className='rounded-3xl shadow-lg cursor-pointer' 
+                alt="work" 
+                width={1200} 
+                height={1200} 
+              />
+            </div>
+            <div className='col-span-1 w-full h-full flex flex-col justify-center space-y-8'>
+              <h1 className='uppercase font-medium'>Wise Drive</h1>
+              <p className='text-3xl font-light leading-relaxed'>
+                <span className='text-gray-500'>Wise Drive is a India's first used car extended warranty company. </span>
+                <span className='font-semibold'>It is transforming the existing warranty market into an honest and transparent process, where everyone benefits.</span>
+              </p>
+              <h6 className='font-light text-gray-400'>Website Development</h6>
+              <Link target='_blank' href="https://www.wisedrive.in/" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
             </div>
           </div>
         </div>
