@@ -197,26 +197,6 @@ export default function Home() {
               <Link target='_blank' href="https://revise.network/" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
             </div>
           </div>          
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-14 lg:pb-50 border-b border-stone-500'>
-            <div className='col-span-1 w-full'>
-              <Image 
-                src="/images/quick-recruit.png" 
-                className='rounded-3xl shadow-lg cursor-pointer' 
-                alt="work" 
-                width={1200} 
-                height={1200} 
-              />
-            </div>
-            <div className='col-span-1 w-full h-full flex flex-col justify-center space-y-8'>
-              <h1 className='uppercase font-medium'>Quick Recruit</h1>
-              <p className='text-3xl font-light leading-relaxed'>
-                <span className='text-gray-500'>A recruitment management application that offers hiring-related services to corporate agencies. </span>
-                <span className='font-semibold'>It enables the management of candidates and provides tracking and analysis of job vacancies.</span>
-              </p>
-              <h6 className='font-light text-gray-400'>Website Development</h6>
-              <Link target='_blank' href="https://alpha.quickrecruit.com/signin" className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>Visit Website</Link>
-            </div>
-          </div>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full py-14 lg:pb-50'>
             <div className='col-span-1 w-full'>
               <Image 
